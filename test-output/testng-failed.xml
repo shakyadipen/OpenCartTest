@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ecommerce.testUtilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="D:/AutomationTesting/Selenium/Selenium-Workspace-Udemy/OpenCart/src/test/java/com/ecommerce/testCases/BaseClass.java(failed)">
+    <classes>
+      <class name="com.ecommerce.testCases.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerce.testCases.LoginTest -->
+      <class name="com.ecommerce.testCases.LogoutTest">
+        <methods>
+          <include name="logout"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerce.testCases.LogoutTest -->
+      <class name="com.ecommerce.testCases.homepageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- com.ecommerce.testCases.homepageTest -->
+    </classes>
+  </test> <!-- D:/AutomationTesting/Selenium/Selenium-Workspace-Udemy/OpenCart/src/test/java/com/ecommerce/testCases/BaseClass.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
